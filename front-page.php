@@ -19,7 +19,7 @@
             <h2 class="headline headline--centered">Our Services</h2>
             <div class="row row--gutters-small">
                 <div class="row__medium-4">
-                    <a title="Sewage Treatment Plant" href="/stp">
+                    <a title="Sewage Treatment Plant" href="<?php echo site_url('stp'); ?>">
                         <div class="service">
                             <div class="service__icon">
                                 <img src="<?php echo get_theme_file_uri('assets/images/sewage-treatment-plant.webp') ?>" alt="Sewage Treatment Plant">
@@ -29,7 +29,7 @@
                     </a>
                 </div>
                 <div class="row__medium-4">
-                    <a title="Water Treatment Plant" href="/wtp">
+                    <a title="Water Treatment Plant" href="<?php echo site_url('wtp'); ?>">
                         <div class="service">
                             <div class="service__icon">
                                 <img src="<?php echo get_theme_file_uri('assets/images/water-treatment-plant.webp') ?>" alt="Water Treatment Plant">
@@ -39,7 +39,7 @@
                     </a>
                 </div>
                 <div class="row__medium-4">
-                    <a title="Desalinasi" href="/desalinasi">
+                    <a title="Desalinasi" href="<?php echo site_url('desalinasi'); ?>">
                         <div class="service">
                             <div class="service__icon">
                                 <img src="<?php echo get_theme_file_uri('assets/images/desalinasi.webp') ?>" alt="Desalinasi">
@@ -69,9 +69,9 @@
                     <p>Pengolahan air limbah menjadi salah satu cara untuk menyelamatkan persediaan air di bumi. PT Adika Tirta Daya membantu Anda mewujudkan pengolahan air limbang yang efektif dan efisien.</p>
                     <p><strong>Melayani dengan cara terbaik kami:</strong>
                         <ul class="text-left">
-                            <li><a href="/stp" title="Sewage Treatment Plant">Sewage Treatment Plant</a>, <a href="/wtp" title="Water Treatment Plant">Water Treatment Plant</a>, <a href="/desalinasi" title="Desalinasi">Desalinasi</a></li>
+                            <li><a href="<?php echo site_url('stp'); ?>" title="Sewage Treatment Plant">Sewage Treatment Plant</a>, <a href="<?php echo site_url('wtp'); ?>" title="Water Treatment Plant">Water Treatment Plant</a>, <a href="<?php echo site_url('desalinasi'); ?>" title="Desalinasi">Desalinasi</a></li>
                             <li>Menggunakan metode aerasi dan filtrasi</li>
-                            <li>Dapat diterapkan di <a href="/industri" title="Industri">berbagai sektor industri</a></li>
+                            <li>Dapat diterapkan di <a href="<?php echo site_url('industri'); ?>" title="Industri">berbagai sektor industri</a></li>
                             <li>Mengutamakan kualitas, komitmen dan inovasi</li>
                         </ul>
                     </p>
@@ -89,7 +89,7 @@
                         <li>Anda cukup berinvestasi, kami yang menyiapkan desain IPAL, peralatan dan pengoperasian sistemnya</li>
                         <li>Mengikuti standar baku mutu sesuai dengan aturan pemerintah</li>
                         <li>Memiliki operator sistem selama 24 jam</li>
-                        <li><a href="/layanan" title="Pay for Performance">Pay for Performance</a>, tentu akan menghemat biaya
+                        <li><a href="<?php echo site_url('layanan'); ?>" title="Pay for Performance">Pay for Performance</a>, tentu akan menghemat biaya
                         </li>
                     </ul>
                     <p><strong>Segera hubungi tim kami: <a href="https://api.whatsapp.com/send?phone=6282116612013" title="Hubungi Kami">Your Smart Water Treatment Solution!</a></strong></p>    
