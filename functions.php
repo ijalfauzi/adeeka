@@ -6,3 +6,9 @@ function adeeka_files() {
 }
 
 add_action('wp_enqueue_scripts', 'adeeka_files');
+
+function adeeka_features() {
+    add_theme_support('title-tag');
+}
+
+add_action('after_setup_theme', 'adeeka_features');
