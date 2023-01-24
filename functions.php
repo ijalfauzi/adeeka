@@ -35,9 +35,9 @@ function adeeka_remove_dashicons() {
     }
 }
 
-// Remove WordPress Classic Theme CSS
-
 add_action('wp_enqueue_scripts', 'adeeka_remove_dashicons');
+
+// Remove WordPress Classic Theme CSS
 
 function adeeka_remove_classic_theme() {
     wp_deregister_style('classic-theme-styles');
